@@ -1,6 +1,7 @@
 {
   "name": "ui-componetns",
   "version": "1.0.6",
+  "private":"true",
   "workspaces": [
     "packages/*"
   ],
