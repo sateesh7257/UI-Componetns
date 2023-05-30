@@ -1,7 +1,7 @@
 //create button component
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Button.scss';
+import './Button.css';
 
 const Button = ({ children, onClick, disabled }) => (
     <button className="button" onClick={onClick} disabled={disabled}>

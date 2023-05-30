@@ -1,6 +1,6 @@
 {
   "name": "@ui-componetns/checkbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "build/index.js",
   "module": "src/index.js",
