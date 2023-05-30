@@ -7,7 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "sateesh7257",
   "license": "MIT",
-  "gitHead": "7db8f6f432184b5bfc01f08e84d219223073487b"
+  "gitHead": "1b1d17f6d15ce1cee0e12f516fab647dc7fcb3b0"
 }
