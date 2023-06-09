@@ -8,14 +8,27 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --copy-files",
-    "lerna-publish": "lerna publish"
+    "lerna-publish": "lerna publish",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.22.1",
     "@babel/preset-env": "^7.22.4",
     "@babel/preset-react": "^7.22.3",
+    "@storybook/addon-essentials": "^7.0.20",
+    "@storybook/addon-interactions": "^7.0.20",
+    "@storybook/addon-links": "^7.0.20",
+    "@storybook/blocks": "^7.0.20",
+    "@storybook/react": "^7.0.20",
+    "@storybook/react-webpack5": "^7.0.20",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "babel-plugin-module-resolver": "^5.0.0",
-    "lerna": "^6.6.2"
+    "lerna": "^6.6.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.20"
   }
 }

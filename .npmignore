@@ -2,3 +2,5 @@ src
 lerna.json
 babel.config.json
 README.md
+.storybook/
+stories
