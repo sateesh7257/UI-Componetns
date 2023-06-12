@@ -1,13 +1,22 @@
 {
   "name": "ui-componetns",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "workspaces": [
     "packages/*"
   ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sateesh7257/UI-Componetns.git",
+    "directory": "packages/*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap --use-workspaces",
     "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --copy-files",
-    "lerna-publish": "lerna publish",
+    "lerna-publish": "lerna publish --registry=https://npm.pkg.github.com/",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
