@@ -3,10 +3,10 @@ import Button from "../packages/button/src/";
 
 export default {
   component: Button,
-  title: "Component/Button"
+  title: "Component/packages"
 };
 
-export const Danger = () => {
+export const ButtonDanger = () => {
   return (
         <Button
           onClick={() => {
